@@ -1,5 +1,5 @@
 // https://api.ipify.org
-import 'models.dart';
+import 'models/classeip';
 import 'dart:convert';
 // Importa il modulo http da package:http/http.dart e lo rinomina come http.
 import "package:http/http.dart" as http;
