@@ -1,0 +1,18 @@
+//Compito 1:aggiungiamo regione,codice postale e città
+class Ip{
+  String ip;
+  String city;
+  String postal;
+  String region;
+
+  Ip({required this.ip,required this.city,required this.postal,required this.region});
+
+  @override
+  String toString() {
+
+    return 'IP: $ip, City: $city, Postal: $postal, Region: $region';
+  }
+
+  
+  
+}
